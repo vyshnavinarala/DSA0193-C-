@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+	 int a,b,c;
+	 int sum;
+	 float average;
+	cout<<"enter the value of a:\n";
+	cin>>a;
+	cout<<"enter the value of b:\n";
+	cin>>b;
+	cout<<"enter the value of c:\n";
+	cin>>c;
+	sum=a+b+c;
+	average=sum/3;
+	cout<<"sum of 3 integers is:"<<sum<<"\n";
+	cout<<"average of 3 integers is:"<<average<<"\n";
+	return 0;
+	
+}
