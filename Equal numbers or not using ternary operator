@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int a,b;
+	string s="";
+	cout<<"enter the value of a:\n";
+	cin>>a;
+	cout<<"enter the value of b:\n";
+	cin>>b;
+	s=(a==b)?"both numbers are equal ":"both numbers are not equal";
+	cout<<s;
+	return 0;
+}
