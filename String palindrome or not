@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main(){
+	string a;
+	string rev="";
+	cout<<"enter the string:";
+	cin>>a;
+	int n=a.length();
+	for(int i=n-1;i>=0;i--){
+		rev=rev+a[i];
+	}
+	cout<<"reversed string is:"<<rev<<"\n";
+	if(a==rev){
+		cout<<"palindrome";
+	}
+	else{
+		cout<<"not a palindrome";
+	}
+	return 0;
+}
