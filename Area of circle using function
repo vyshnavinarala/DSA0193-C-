@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+double calculatearea(double radius){
+	const double PI=3.14;
+	return PI*radius*radius;
+}
+int main(){
+	double radius;
+	double area;
+	cout<<"enter the radius:";
+	cin>>radius;
+	area=calculatearea(radius);
+	cout<<"the area of circle is:"<<area;
+	return 0;
+	
+}
